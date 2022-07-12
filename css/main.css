@@ -1,0 +1,42 @@
+body{
+    background-color:dimgray;
+}
+
+
+
+a {color: #000000;}         /* Unvisited link  */
+a:visited {color:#000000;} /* Visited link    */
+a:hover {color:#000000;}   /* Mouse over link */
+a:active {color:#000000;}  /* Selected link   */
+
+
+ul{
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+li {
+    display: inline-block;
+    background-color: #f4a261;
+    padding: 5px;
+    margin-right: -4px;
+}
+
+li:hover {
+    background: #E76F51;
+}
+
+ul {
+    padding-left: 0px;
+    background-color: black;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 13px;
+    font-family: oswald, sans-serif;
+    
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px;
+}
