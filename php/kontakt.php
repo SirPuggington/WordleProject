@@ -7,6 +7,8 @@
 
     <title>Kontakt</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon2.ico">
+
 </head>
 
 <body>
