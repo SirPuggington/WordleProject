@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Zu Wordle</title>
+    <title>Über Wordle</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon2.ico">
+
 </head>
 
 <body>

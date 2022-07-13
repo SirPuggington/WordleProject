@@ -8,21 +8,21 @@
             if (($file) == "index") {
             ?>
 
-                <img class="logo" src="assets/images/Wordle-Logo.png">
+                <a href="#"><img class="logo" src="assets/images/Wordle-Logo.png"></a>
                 <ul class="nav-items">
                     <li><a href="#">Startseite</a></li>
-                    <li><a href="php/zu_wordle.php">Über Wordle</a></li>
+                    <li><a href="php/über_wordle.php">Über Wordle</a></li>
                     <li><a href="php/kontakt.php">Kontakt</a></li>
                 </ul>
 
             <?php } else { ?>
 
 
-                <img class="logo" src="../assets/images/Wordle-Logo.png">
+                <a href="../"><img class="logo" src="../assets/images/Wordle-Logo.png"></a>
                 <ul class="nav-items">
                     <li><a href="../">Startseite</a></li>
-                    <li><a href="#">Über Wordle</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="über_wordle.php">Über Wordle</a></li>
+                    <li><a href="kontakt.php">Kontakt</a></li>
 
                 <?php } ?>
 
