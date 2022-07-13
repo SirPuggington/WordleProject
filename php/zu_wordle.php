@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>zuWordle</title>
-    <link rel="stylesheet"
-    href="main.css">
-    </link>
+    <title>Zu Wordle</title>
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
 

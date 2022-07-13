@@ -5,13 +5,14 @@
 /*black: #000*/
 
 
-body{
+body {
     background-color: #ffffff;
-    font-family: "DejaVu Sans Mono", sans-serif ;
+    font-family: "DejaVu Sans Mono", sans-serif;
     width: 100%;
     margin: 0;
-    padding-bottom:100px;
+    padding-bottom: 100px;
     height: 100%;
+    position: relative;
 }
 
 .logo {
@@ -47,7 +48,7 @@ body{
     margin-top: 4px;
     margin-bottom: 4px;
     display: inline;
-    border-right:1px solid #777c7e;
+    border-right: 1px solid #777c7e;
 }
 
 .nav-bar li:last-child {
@@ -93,11 +94,12 @@ body{
     }
 }
 
-footer{
+footer {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
+
 nav.nav-footer {
     height: 150px;
     width: 100%;
@@ -106,29 +108,30 @@ nav.nav-footer {
     padding-top: 10px;
 }
 
-nav.nav-footer img{
+nav.nav-footer img {
     width: 200px;
     padding-bottom: 40px;
 }
 
-nav.nav-footer a{
+nav.nav-footer a {
     padding: 5px;
     color: white;
     text-decoration: underline 0.10em rgba(255, 255, 255, 0);
     transition: text-decoration-color 300ms;
 }
 
-nav.nav-footer a:hover{
+nav.nav-footer a:hover {
     text-decoration-color: rgba(255, 255, 255, 1);
 }
-footer .copy-right{
+
+footer .copy-right {
     width: 100%;
     text-align: center;
     background-color: white;
 }
 
-.content-wrapper{
+.content-wrapper {
     width: 80%;
     margin: auto;
-    position: relative;
+    padding-bottom: 170px;
 }
