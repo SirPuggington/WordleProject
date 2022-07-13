@@ -1,9 +1,13 @@
+<!doctype html>
+
 <html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <title>Impressum</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="script" href="../js/main.js">
+
 </head>
 
 <body>

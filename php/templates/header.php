@@ -11,14 +11,14 @@
                 <img class="logo" src="assets/images/Wordle-Logo.png">
                 <ul class="nav-items">
                     <li><a href="#">Startseite</a></li>
-                    <li><a href="#">Über Wordle</a></li>
-                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="php/zu_wordle.php">Über Wordle</a></li>
+                    <li><a href="/php/kontakt.php">Kontakt</a></li>
                 </ul>
 
             <?php } else { ?>
 
 
-                <img class="logo" src="assets/images/Wordle-Logo.png">
+                <img class="logo" src="../assets/images/Wordle-Logo.png">
                 <ul class="nav-items">
                     <li><a href="#">Startseite</a></li>
                     <li><a href="#">Über Wordle</a></li>
