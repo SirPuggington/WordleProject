@@ -1,6 +1,11 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
 
-
-<?php include "templates/header.php" ?>
+    <title>Kontakt</title>
+</head>
+<body>
+    <?php include __DIR__."/php/templates/header.php" ?>
 
 <form action="//" method="post">
 
@@ -22,4 +27,7 @@
 
 </form>
 
-<?php include "templates/footer.php" ?>
+<?php include __DIR__."/php/templates/footer.php" ?>
+</body>
+</html>
+
