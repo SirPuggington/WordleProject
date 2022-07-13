@@ -11,6 +11,8 @@
 </head>
 <body>
 <?php include "php/templates/header.php" ?>
+<div class="content-wrapper">
+
 
 
 
@@ -23,7 +25,7 @@
 
 
 
-
+</div>
 <?php include "php/templates/footer.php" ?>
 
 </body>
