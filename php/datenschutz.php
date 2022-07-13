@@ -5,7 +5,7 @@
 </head>
 <body>
 
-<?php include __DIR__."/php/templates/header.php" ?>
+<?php include __DIR__."/templates/header.php" ?>
 
    <h1>Datenschutz&shy;erkl&auml;rung</h1>
 <h2>1. Datenschutz auf einen Blick</h2>
@@ -32,4 +32,4 @@ E-Mail: humanbeeing@live.de</p>
 </body>
 </html>
 
-<?php include __DIR__."/php/templates/footer.php" ?>
+<?php include __DIR__."/templates/footer.php" ?>

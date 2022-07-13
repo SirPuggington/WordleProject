@@ -5,7 +5,7 @@
 </head>
 <body>
     
-<?php include __DIR__."/php/templates/header.php" ?>
+<?php include "templates/header.php" ?>
 
 <h1>Impressum</h1>
 
@@ -20,10 +20,13 @@
 </ul>
 
 <h2>Kontakt:</h2>
-<a href="mailto:humanbeein@live.de">Email: humanbeeing@live.de</a>
+<strong>Email:</strong>
+<a href="mailto:humanbeein@live.de">humanbeeing@live.de</a>
+<br>
+<strong>Web:</strong>
 <a href="https://github.com/SirPuggington/WordleProject">GitHub</a>
 
-<?php include __DIR__."/php/templates/footer.php" ?>
+<?php include "templates/footer.php" ?>
 
 </body>
 </html>

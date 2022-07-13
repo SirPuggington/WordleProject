@@ -5,7 +5,7 @@
     <title>Kontakt</title>
 </head>
 <body>
-    <?php include __DIR__."/templates/header.php" ?>
+    <?php include "templates/header.php" ?>
 
 
 <?php if(!isset($_POST["submitted"])){ ?>
@@ -24,19 +24,18 @@
     <option value="Sonstiges">Sonstiges</option>
 </select>
 <label for="kontakt_nachricht">Nachricht</label>
-<input name="kontakt_nachricht"id="kontakt_nachricht" type="textarea" placeholder="Was können wir für Sie tun?" required>
-<input name="newsletter" id=newsletter type="checkbox">
-<label for="newsletter">Ich möchte mich für den Newsletter anmelden</label>
+<textarea name="kontakt_nachricht"id="kontakt_nachricht" placeholder="Was können wir für Sie tun?" required>
+</textarea>
 <button type="submit" name="submitted" value="true">Absenden</button>
 
 </form>
 
 <?php }else{ ?>
-    <h3>Vielen Dank für ihre Nachricht <?php echo $_POST["kontakt_name"]?>!</h3>   
+    <h3>Vielen Dank für ihre Nachricht <?php echo $_POST["kontakt_name"];?>!</h3>   
     <p>Wir setzen uns schnellstmöglich mit Ihnen in Verbindung.</p> 
 <?php } ?>
 
-<?php include __DIR__."/templates/footer.php" ?>
+<?php include "templates/footer.php" ?>
 </body>
 </html>
 
