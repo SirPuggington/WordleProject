@@ -40,7 +40,7 @@
                 </form>
 
             <?php } else { ?>
-                <img src="../assets/images/Danke.png">
+                <img src="../assets/images/danke.png">
                 <h3>Vielen Dank für ihre Nachricht <?php echo $_POST["kontakt_name"]; ?>!</h3>
                 <p>Wir setzen uns schnellstmöglich mit Ihnen in Verbindung.</p>
                 <br>
