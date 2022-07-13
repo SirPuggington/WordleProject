@@ -1,11 +1,13 @@
 <header>
+    <nav class="nav-bar">
+        <div id="nav-container">
+            <img class="logo" src="assets/images/Wordle-Logo.png">
+            <ul class="nav-items">
+                <li><a href="#">Startseite</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </div>
 
-<nav>
-    <img src="" alt="Logo mit Link zur Startseite" href="">
-
-    <a href="/wordlemania">Startseite</a> |
-    <a href="/wordlemania/php/team.php">Team</a> |
-    <a href="/wordlemania/php/kontakt.php">Kontakt</a> |
-</nav>
-
+    </nav>
 </header>
