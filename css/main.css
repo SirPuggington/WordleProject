@@ -74,7 +74,7 @@ header {
     text-decoration-color: rgba(0, 0, 0, 1);
 }
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 900px) {
     .logo {
         float: none;
         padding: 3px 0 3px 0;
@@ -187,3 +187,75 @@ a[type=button] {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+/*GAME*/
+#game-title {
+    text-align: center;
+}
+
+#game-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.letter-box {
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2rem;
+    font-weight: 600;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.filled-box {
+    border: 2px solid black;
+}
+
+.letter-row {
+    display: flex;
+}
+
+#keyboard-cont {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#keyboard-cont div {
+    display: flex;
+}
+
+.second-row {
+    margin: 0.5rem 0;
+}
+
+.keyboard-button {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.used {
+    border-radius: 2px;
+    color: white;
+    border-style: none;
+}
+
+/*
+:link
+:visited :hover :active
+::placeholder
+::after
+kombinatoren (3 versch)
+*/
