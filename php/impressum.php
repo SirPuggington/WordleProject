@@ -15,13 +15,13 @@
 <body>
 
     <?php include "templates/header.php" ?>
-    <div class="content-wrapper">
+    <main class="content-wrapper">
         <div class="form">
 
             <h1>Impressum</h1>
 
             <h2>Gruppe 5</h2>
-            <h3>Martikel-Nummern:</h3>
+            <h3>Matrikel-Nummern:</h3>
             <ul>
                 <li>1784535</li>
                 <li>2150424</li>
@@ -33,12 +33,12 @@
             <h2>Kontakt:</h2>
 
             <strong>Email:</strong>
-            <a href="mailto:humanbeein@live.de">humanbeeing@live.de</a>
+            <a href="mailto:humanbeeing@live.de">humanbeeing@live.de</a>
             <br>
             <strong>Web:</strong>
             <a href="https://github.com/SirPuggington/WordleProject">GitHub</a>
         </div>
-    </div>
+    </main>
     <?php include "templates/footer.php" ?>
 
 

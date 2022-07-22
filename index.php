@@ -15,11 +15,7 @@
 
 <body>
     <?php include "php/templates/header.php" ?>
-    <div class="content-wrapper">
-
-
-
-
+    <main class="content-wrapper">
 
 
         <h1 id="game-title">Hello Worldle</h1>
@@ -65,7 +61,10 @@
             </div>
         </div>
 
-    </div>
+
+
+
+    </main>
 
 
     <?php include "php/templates/footer.php" ?>

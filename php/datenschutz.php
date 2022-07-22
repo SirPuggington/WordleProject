@@ -16,7 +16,7 @@
     <?php include  "templates/header.php" ?>
 
 
-    <div class="content-wrapper">
+    <main class="content-wrapper">
 
 
         <h1>Datenschutz&shy;erkl&auml;rung</h1>
@@ -73,7 +73,7 @@
         </ul>
         <p>Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschr&auml;nkt haben, d&uuml;rfen diese Daten &ndash; von ihrer Speicherung abgesehen &ndash; nur mit Ihrer Einwilligung oder zur Geltendmachung, Aus&uuml;bung oder Verteidigung von Rechtsanspr&uuml;chen oder zum Schutz der Rechte einer anderen nat&uuml;rlichen oder juristischen Person oder aus Gr&uuml;nden eines wichtigen &ouml;ffentlichen Interesses der Europ&auml;ischen Union oder eines Mitgliedstaats verarbeitet werden.</p>
         <p>Quelle: <a href="https://www.e-recht24.de">https://www.e-recht24.de</a></p>
-    </div>
+    </main>
 
     <?php include  "templates/footer.php" ?>
 </body>
