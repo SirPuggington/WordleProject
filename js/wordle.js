@@ -1,6 +1,6 @@
 // diese Datei ist zum Großteil aus folgender Quelle übernommen:
 // https:www.freecodecamp.org/news/build-a-wordle-clone-in-javascript/
-// Es lediglich kleinere Ändereungen am Desing und der Logik
+// Es gibt lediglich kleinere Ändereungen am Desing und der Logik
 
 import { WORDS } from "./words.js";
 
