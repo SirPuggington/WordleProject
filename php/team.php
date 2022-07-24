@@ -9,6 +9,20 @@
     <title>Team</title>
 </head>
 
+<?php
+$quote1 = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam";
+$quote2 = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam";
+$quote3 = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam";
+$quote4 = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam";
+$quote5 = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam";
+
+$img1 = "<img src='../assets/images/team/platzhalter.png' alt='TEAMBILD'>";
+$img2 = "<img src='../assets/images/team/platzhalter.png' alt='TEAMBILD'>";
+$img3 = "<img src='../assets/images/team/platzhalter.png' alt='TEAMBILD'>";
+$img4 = "<img src='../assets/images/team/platzhalter.png' alt='TEAMBILD'>";
+$img5 = "<img src='../assets/images/team/platzhalter.png' alt='TEAMBILD'>";
+?>
+
 <body>
     <?php include "templates/header.php" ?>
 
@@ -16,76 +30,139 @@
 
 
         <div>
-            <img src="../assets/images/team/platzhalter.png" alt="TEAMBILD">
+            <?php echo $img1 ?>
             <details>
                 <summary>
                     123456789
                 </summary>
                 <blockquote>
 
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    <?php echo $quote1 ?>
 
                 </blockquote>
             </details>
 
         </div>
         <div>
-            <img src="../assets/images/team/platzhalter.png" alt="TEAMBILD">
+            <?php echo $img2 ?>
             <details>
                 <summary>
                     123456789
                 </summary>
                 <p>
 
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    <?php echo $quote2 ?>
 
                 </p>
             </details>
 
         </div>
         <div>
-            <img src="../assets/images/team/platzhalter.png" alt="TEAMBILD">
+            <?php echo $img3 ?>
             <details>
                 <summary>
                     123456789
                 </summary>
                 <p>
 
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    <?php echo $quote3 ?>
 
                 </p>
             </details>
 
         </div>
         <div>
-            <img src="../assets/images/team/platzhalter.png" alt="TEAMBILD">
+            <?php echo $img4 ?>
             <details>
                 <summary>
                     123456789
                 </summary>
                 <p>
 
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    <?php echo $quote4 ?>
 
                 </p>
             </details>
 
         </div>
         <div>
-            <img src="../assets/images/team/platzhalter.png" alt="TEAMBILD">
+            <?php echo $img5 ?>
             <details>
                 <summary>
                     123456789
                 </summary>
                 <p>
 
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    <?php echo $quote5 ?>
 
                 </p>
             </details>
 
         </div>
 
+
+        <section>
+            <h2>Team Wettbewerb</h2>
+            <form action="POST">
+                <h3>Wer hat das beste Bild?</h3>
+                <table>
+                    <tr>
+                        <td>
+                            <input id="img1" type="radio" name="fav_img" value="img1">
+                        </td>
+                        <td>
+                            <label for="img1"> <?php echo $img1 ?></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="img2" type="radio" name="fav_img" value="img2">
+                        </td>
+                        <td>
+                            <label for="img2"><?php echo $img2 ?></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="img3" type="radio" name="fav_img" value="img3">
+                        </td>
+                        <td>
+                            <label for="img3"><?php echo $img3 ?></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="img4" type="radio" name="fav_img" value="img4">
+                        </td>
+                        <td>
+                            <label for="img4"><?php echo $img4 ?></label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input id="img5" type="radio" name="fav_img" value="img5">
+                        </td>
+                        <td>
+                            <label for="img5"><?php echo $img5 ?></label>
+                        </td>
+                    </tr>
+                </table>
+
+                <h3>Wer hat das beste Zitat?</h3>
+                <input id="quote1" type="radio" name="fav_quote" value="quote1">
+                <label for="quote1"><?php echo $quote1 ?></label>
+                <input id="quote2" type="radio" name="fav_quote" value="quote2">
+                <label for="quote2"><?php echo $quote2 ?></label>
+                <input id="quote3" type="radio" name="fav_quote" value="quote3">
+                <label for="quote3"><?php echo $quote3 ?></label>
+                <input id="quote4" type="radio" name="fav_quote" value="quote4">
+                <label for="quote4"><?php echo $quote4 ?></label>
+                <input id="quote5" type="radio" name="fav_quote" value="quote5">
+                <label for="quote5"><?php echo $quote5 ?></label>
+
+                <input type="button" value="submit">
+
+        </section>
 
     </main>
 
