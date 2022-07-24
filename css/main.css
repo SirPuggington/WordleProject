@@ -71,7 +71,7 @@ nav.nav-footer a:hover {
 footer .copy-right {
     width: 100%;
     text-align: center;
-    background-color: white;
+    background-color: #52ad5b;
 }
 
 .content-wrapper {
@@ -126,6 +126,10 @@ a[type=button] {
     cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+#contact-form>label::after {
+    content: "\002A";
 }
 
 /*GAME*/
@@ -217,8 +221,74 @@ a[type=button] {
     width: 180px;
 }
 
+.team-form img {
+    width: 130px;
+
+}
+
+.team-form td {
+    padding: 0 20px
+}
+
 .flex-container.padding-50 {
     padding-top: 50px;
+}
+
+.grid-container.padding-25 {
+    padding-top: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+}
+
+summary {
+    font-size: larger;
+}
+
+blockquote::before {
+    content: "\"";
+    color: #52ad5b;
+    font-size: xx-large;
+}
+
+#winner-img {
+    width: 70%;
+    min-width: 200px;
+}
+
+.content-wrapper.winner {
+    width: 40%;
+    margin: auto;
+}
+
+#wordle-table {
+    width: 100%;
+
+}
+
+#wordle-table th {
+    background-color: #52ad5b;
+    text-align: left;
+    padding: 10px;
+}
+
+#wordle-table td {
+    padding: 10px;
+}
+
+#wordle-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+#help-div {
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    z-index: 5;
 }
 
 

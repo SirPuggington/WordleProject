@@ -58,6 +58,11 @@ header {
     text-decoration-color: rgba(0, 0, 0, 1);
 }
 
+.nav-bar li a.active {
+    text-decoration-color: rgba(0, 0, 0, 1);
+
+}
+
 #nav-burger {
     display: none;
 }
