@@ -191,7 +191,7 @@ $img5 = "<img src='../assets/images/team/img5.png' alt='Teambild 5'>";
 
                     <h3>Wer hat das beste Zitat?</h3>
                     <div class="quotes">
-                        <input id="quote1" type="radio" name="fav_quote" value="<?php echo $quote1 ?> required">
+                        <input id="quote1" type="radio" name="fav_quote" value="<?php echo $quote1 ?>" required>
                         <label for="quote1"><?php echo $quote1 ?></label><br><br>
                         <input id="quote2" type="radio" name="fav_quote" value="<?php echo $quote2 ?>">
                         <label for="quote2"><?php echo $quote2 ?></label><br><br>
