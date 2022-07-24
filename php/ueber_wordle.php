@@ -65,6 +65,23 @@
                 </a>
 
             </aside>
+            <table>
+  <tr>
+    <th>Name</th>
+    <th>Beschreibung</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>Wordle</td>
+    <td>Klassisches-Wordle</td>
+    <td><a href="https://wordle.at/">Wordle</td>
+   </tr>
+   <tr>
+     <td>Dordle</td>
+     <td>Wordle mit 2 Eingaben</td>
+     <td><a href="https://zaratustra.itch.io/dordle">Dordle</td>
+   </tr>
+</table>
 
         </article>
 
