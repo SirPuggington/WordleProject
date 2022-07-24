@@ -67,6 +67,14 @@
                 </a>
 
             </aside>
+            
+            <br>
+            <br>
+            <br>
+            
+            <h1>
+            Andere Arten von Wordle:
+            </h1>
             <table>
   <tr>
     <th>Name</th>
@@ -102,6 +110,26 @@
      <td>Centordle</td>
      <td>100 Wordles gleichzeitig </td>
      <td><a href="https://hked.live/centordle/">Centordle</td>
+   </tr>
+   <tr>
+     <td>Poeltl</td>
+     <td>Wordle mit aktiven Basketballspielern </td>
+     <td><a href="https://poeltl.dunk.town/">Poeltl</td>
+   </tr>
+   <tr>
+     <td>Chessle</td>
+     <td>Wordle mit Schach (Startkombinationen erraten) </td>
+     <td><a href="https://dordle.io/chessle">Chessle</td>
+   </tr>
+   <tr>
+     <td>Redactle</td>
+     <td>Erraten eines Artikels (Wikipedia) </td>
+     <td><a href="https://www.redactle.com/">Redactle</td>
+   </tr>
+   <tr>
+     <td>Worldle</td>
+     <td>Erraten des Landes (Mit Fläche des Landes) </td>
+     <td><a href="https://worldle.teuteuf.fr/">Worldle</td>
    </tr>
 </table>
 
