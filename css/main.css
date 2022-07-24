@@ -80,6 +80,10 @@ footer .copy-right {
     padding-bottom: 170px;
 }
 
+video {
+    width: 100%;
+}
+
 /*FORM*/
 
 .form {
@@ -290,13 +294,3 @@ blockquote::before {
     bottom: 80px;
     z-index: 5;
 }
-
-
-
-/*
-:link
-:visited :hover :active
-::placeholder
-::after
-kombinatoren (3 versch)
-*/
