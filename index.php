@@ -61,6 +61,24 @@
             </div>
         </div>
 
+        <article>
+            <h2>Anleitung:</h2>
+            <ol>
+                <li>Gib ein <span class="red">englisches</span> Wort mit 5 Buchstaben ein</li>
+                <li>Bestätige deine Eingabe mit der Eingabetaste</li>
+                <li>Die Buchstaben verändern ihre Farbe um dir Hinweise zu geben</li>
+            </ol>
+            <h3>Was bedeuten die Farben?</h3>
+            <dl>
+                <td>Grau</td>
+                <dd>der Buchstabe kommt <span class="red">nicht</span> im gesuchten Wort vor</dd>
+                <td>Gelb</td>
+                <dd>der Buchstabe kommt im gesuchten Wort vor, aber an einer anderen Stelle</dd>
+                <td>Grün</td>
+                <dd>der Buchstabe kommt im gesuchten Wort vor und ist an der korrekten Stelle</dd>
+            </dl>
+        </article>
+
 
 
 

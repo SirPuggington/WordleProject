@@ -22,10 +22,13 @@
             <section>
                 <h2>Was ist Wordle?</h2>
                 <p>
+
                     <strong>Wordle</strong>
                     ist ein Spiel, welches im Oktober 2021 beliebtheit im Internet bekam und
-                    heutzutage tausende verschiedene Versionen, wie Dordle, Cheesle, Worldle und
-                    auch Redactle, besitzt. Das Spiel <em>Wordle</em> wurde von Josh Wardle
+                    heutzutage tausende verschiedene Versionen, wie <abbr title="Löse zwei Wordles gleichzeitig">Dordle</abbr>,
+                    <abbr title="Finde das gesuchte Land">Worldle</abbr>,
+                    <abbr title="Finde das gesuchte Pokémon">Squirdle</abbr> und
+                    auch <abbr title="Finde den Titel eines geschwärzten Wikipedia-Artikels">Redactle</abbr>, besitzt. Das Spiel <em>Wordle</em> wurde von Josh Wardle
                     und seiner Frau erfunden und auch von diesen im Internet verbreitet.
                     Die Idee kam ihn von einem ähnlich Rätselspiel der NY-Times dem <em>Speeling Bee</em>, wessen Prinzip er für sein Browserspiel übernahm.
                 </p>
