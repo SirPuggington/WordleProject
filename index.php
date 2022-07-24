@@ -17,6 +17,8 @@
 
 <body>
     <?php include "php/templates/header.php" ?>
+    <?php include "php/templates/help.php" ?>
+
     <main class="content-wrapper">
         <div class="flex-container">
             <div class="flex-child">
@@ -79,7 +81,18 @@
                     <td>Grün</td>
                     <dd>der Buchstabe kommt im gesuchten Wort vor und ist an der korrekten Stelle</dd>
                 </dl>
+
+                <h2>Gemütliche Musik zum Spielen</h2>
+
+                <div class="ambient">
+                    <audio controls>
+                        <source src="assets/audio/ambient.mp3">
+                        <source src="assets/audio/ambient2.mp3">
+                    </audio>
+                </div>
             </article>
+
+
 
 
         </div>

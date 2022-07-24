@@ -14,9 +14,10 @@
 <body>
 
     <?php include "templates/header.php" ?>
+    <?php include "templates/help.php" ?>
 
 
-    <main class="content-wrapper">
+    <main class="content-wrapper winner">
 
         <pre>
  _       _______   ___   ____________ 
@@ -25,7 +26,7 @@
 | |/ |/ // // /|  / /|  / /___/ _, _/ 
 |__/|__/___/_/ |_/_/ |_/_____/_/ |_| 
         </pre>
-        <img src="<img src='../assets/images/team/<?php echo $_POST["fav_img"] ?>.png" alt="Gewinner-Bild">
+        <img id="winner-img" src='../assets/images/team/<?php echo $_POST["fav_img"] ?>.png' alt='Gewinner-Bild'>
         <h3><?php echo $_POST["fav_quote"] ?></h3>
 
     </main>

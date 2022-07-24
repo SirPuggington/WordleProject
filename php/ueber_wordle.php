@@ -15,6 +15,7 @@
 <body>
 
     <?php include "templates/header.php" ?>
+    <?php include "templates/help.php" ?>
 
 
     <main class="content-wrapper">
@@ -56,81 +57,88 @@
             </section>
 
             <aside>
-                <a href="https://de.wikipedia.org/wiki/Wordle">
+                <a href="https://de.wikipedia.org/wiki/Wordle" target="_blank">
                     <table>
                         <tr>
-                            <td><?php include "wiki_svg.html" ?></td>
+                            <td><?php include "../assets/images/wiki_svg.html" ?></td>
                             <td>mehr zu Wordle</td>
                         </tr>
                     </table>
                 </a>
 
             </aside>
-            
+
+
+            <hr>
             <br>
             <br>
-            <br>
-            
+            <figure>
+                <video src="../assets/video/wordle.mp4" controls></video>
+                <figcaption>
+                    Quelle: <a href="https://youtu.be/WnWPXZ6vQB8" target="_blank">Youtube: TODAY</a>
+                </figcaption>
+            </figure>
+
             <h1>
-            Andere Arten von Wordle:
+                Andere Arten von Wordle:
             </h1>
-            <table>
-  <tr>
-    <th>Name</th>
-    <th>Beschreibung</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td>Wordle</td>
-    <td>Klassisches-Wordle</td>
-    <td><a href="https://wordle.at/">Wordle</td>
-   </tr>
-   <tr>
-     <td>Dordle</td>
-     <td>Zwei Wordles gleichzeitig</td>
-     <td><a href="https://zaratustra.itch.io/dordle">Dordle</td>
-   </tr>
-   <tr>
-     <td>Lewdle</td>
-     <td>Wordle mit bösen Wörtern</td>
-     <td><a href="https://www.lewdlegame.com/">Lewdle</td>
-   </tr>
-   <tr>
-     <td>Wordle unlimited</td>
-     <td>Unendlich viele Wordles </td>
-     <td><a href="https://wordleunlimited.org/">Wordle unlimited</td>
-   </tr>
-   <tr>
-     <td>Quordle</td>
-     <td>Vier Wordles gleichzeitig </td>
-     <td><a href="https://www.quordle.com/#/">Quordle</td>
-   </tr>
-   <tr>
-     <td>Centordle</td>
-     <td>100 Wordles gleichzeitig </td>
-     <td><a href="https://hked.live/centordle/">Centordle</td>
-   </tr>
-   <tr>
-     <td>Poeltl</td>
-     <td>Wordle mit aktiven Basketballspielern </td>
-     <td><a href="https://poeltl.dunk.town/">Poeltl</td>
-   </tr>
-   <tr>
-     <td>Chessle</td>
-     <td>Wordle mit Schach (Startkombinationen erraten) </td>
-     <td><a href="https://dordle.io/chessle">Chessle</td>
-   </tr>
-   <tr>
-     <td>Redactle</td>
-     <td>Erraten eines Artikels (Wikipedia) </td>
-     <td><a href="https://www.redactle.com/">Redactle</td>
-   </tr>
-   <tr>
-     <td>Worldle</td>
-     <td>Erraten des Landes (Mit Fläche des Landes) </td>
-     <td><a href="https://worldle.teuteuf.fr/">Worldle</td>
-   </tr>
-</table>
+            <table id="wordle-table">
+                <tr>
+                    <th>Name</th>
+                    <th>Beschreibung</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>Wordle</td>
+                    <td>Klassisches-Wordle</td>
+                    <td><a href="https://wordle.at/" target="_blank">Wordle</td>
+                </tr>
+                <tr>
+                    <td>Dordle</td>
+                    <td>Zwei Wordles gleichzeitig</td>
+                    <td><a href="https://zaratustra.itch.io/dordle" target="_blank">Dordle</td>
+                </tr>
+                <tr>
+                    <td>Lewdle</td>
+                    <td>Wordle mit bösen Wörtern</td>
+                    <td><a href="https://www.lewdlegame.com/" target="_blank">Lewdle</td>
+                </tr>
+                <tr>
+                    <td>Wordle unlimited</td>
+                    <td>Unendlich viele Wordles </td>
+                    <td><a href="https://wordleunlimited.org/" target="_blank">Wordle unlimited</td>
+                </tr>
+                <tr>
+                    <td>Quordle</td>
+                    <td>Vier Wordles gleichzeitig </td>
+                    <td><a href="https://www.quordle.com/#/" target="_blank">Quordle</td>
+                </tr>
+                <tr>
+                    <td>Centordle</td>
+                    <td>100 Wordles gleichzeitig </td>
+                    <td><a href="https://hked.live/centordle/" target="_blank">Centordle</td>
+                </tr>
+                <tr>
+                    <td>Poeltl</td>
+                    <td>Wordle mit aktiven Basketballspielern </td>
+                    <td><a href="https://poeltl.dunk.town/" target="_blank">Poeltl</td>
+                </tr>
+                <tr>
+                    <td>Chessle</td>
+                    <td>Wordle mit Schach (Startkombinationen erraten) </td>
+                    <td><a href="https://dordle.io/chessle" target="_blank">Chessle</td>
+                </tr>
+                <tr>
+                    <td>Redactle</td>
+                    <td>Erraten eines Artikels (Wikipedia) </td>
+                    <td><a href="https://www.redactle.com/" target="_blank">Redactle</td>
+                </tr>
+                <tr>
+                    <td>Worldle</td>
+                    <td>Erraten des Landes (Mit Fläche des Landes) </td>
+                    <td><a href="https://worldle.teuteuf.fr/" target="_blank">Worldle</td>
+                </tr>
+            </table>
 
         </article>
 
