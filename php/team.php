@@ -10,17 +10,17 @@
 </head>
 
 <?php
-$quote1 = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam";
-$quote2 = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam";
-$quote3 = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam";
-$quote4 = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam";
-$quote5 = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam";
+$quote1 = "Der Unterschied zwischen Dummheit und Genialität ist, Genialität hat ihre Grenzen.";
+$quote2 = "Wenn Du dem Menschen, der für Deine meisten Probleme verantwortlich ist, einen Tritt in den Hintern verpassen könntest, könntest Du einen Monat nicht sitzen.";
+$quote3 = "Auch die besessensten Vegetarier beissen nicht gern ins Gras";
+$quote4 = "Bankraub ist eine Unternehmung von Dilettanten. Wahre Profis gründen eine Bank.";
+$quote5 = "Auch der dumme hat manchmal einen gescheiten Gedanken. Er merkt es nur nicht.";
 
-$img1 = "<img src='../assets/images/team/platzhalter.png' alt='TEAMBILD'>";
-$img2 = "<img src='../assets/images/team/platzhalter.png' alt='TEAMBILD'>";
-$img3 = "<img src='../assets/images/team/platzhalter.png' alt='TEAMBILD'>";
-$img4 = "<img src='../assets/images/team/platzhalter.png' alt='TEAMBILD'>";
-$img5 = "<img src='../assets/images/team/platzhalter.png' alt='TEAMBILD'>";
+$img1 = "<img src='../assets/images/team/IMG_2199.png' alt='TEAMBILD'>";
+$img2 = "<img src='../assets/images/team/lego (1).png' alt='TEAMBILD'>";
+$img3 = "<img src='../assets/images/team/lego (2).png' alt='TEAMBILD'>";
+$img4 = "<img src='../assets/images/team/lego.png' alt='TEAMBILD'>";
+$img5 = "<img src='../assets/images/team/woman.png' alt='TEAMBILD'>";
 ?>
 
 <body>
