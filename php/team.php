@@ -29,77 +29,79 @@ $img5 = "<img src='../assets/images/team/img5.png' alt='TEAMBILD'>";
     <?php include "templates/header.php" ?>
 
     <main class="content-wrapper">
+        <div class="flex-container padding-50">
+            <div class="team-member flex-child">
+                <?php echo $img1 ?>
+                <details>
+                    <summary>
+                        123456789
+                    </summary>
+                    <blockquote>
 
+                        <?php echo $quote1 ?>
 
-        <div>
-            <?php echo $img1 ?>
-            <details>
-                <summary>
-                    123456789
-                </summary>
-                <blockquote>
+                    </blockquote>
+                </details>
 
-                    <?php echo $quote1 ?>
+            </div>
+            <div class="team-member flex-child">
+                <?php echo $img2 ?>
+                <details>
+                    <summary>
+                        123456789
+                    </summary>
+                    <p>
 
-                </blockquote>
-            </details>
+                        <?php echo $quote2 ?>
 
+                    </p>
+                </details>
+
+            </div>
+            <div class="team-member flex-child">
+                <?php echo $img3 ?>
+                <details>
+                    <summary>
+                        123456789
+                    </summary>
+                    <p>
+
+                        <?php echo $quote3 ?>
+
+                    </p>
+                </details>
+
+            </div>
         </div>
-        <div>
-            <?php echo $img2 ?>
-            <details>
-                <summary>
-                    123456789
-                </summary>
-                <p>
+        <div class="flex-container padding-50">
+            <div class="team-member flex-child">
+                <?php echo $img4 ?>
+                <details>
+                    <summary>
+                        123456789
+                    </summary>
+                    <p>
 
-                    <?php echo $quote2 ?>
+                        <?php echo $quote4 ?>
 
-                </p>
-            </details>
+                    </p>
+                </details>
 
-        </div>
-        <div>
-            <?php echo $img3 ?>
-            <details>
-                <summary>
-                    123456789
-                </summary>
-                <p>
+            </div>
+            <div class="team-member flex-child">
+                <?php echo $img5 ?>
+                <details>
+                    <summary>
+                        123456789
+                    </summary>
+                    <p>
 
-                    <?php echo $quote3 ?>
+                        <?php echo $quote5 ?>
 
-                </p>
-            </details>
+                    </p>
+                </details>
 
-        </div>
-        <div>
-            <?php echo $img4 ?>
-            <details>
-                <summary>
-                    123456789
-                </summary>
-                <p>
-
-                    <?php echo $quote4 ?>
-
-                </p>
-            </details>
-
-        </div>
-        <div>
-            <?php echo $img5 ?>
-            <details>
-                <summary>
-                    123456789
-                </summary>
-                <p>
-
-                    <?php echo $quote5 ?>
-
-                </p>
-            </details>
-
+            </div>
         </div>
 
 
