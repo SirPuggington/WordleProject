@@ -16,11 +16,11 @@ $quote3 = "Auch die besessensten Vegetarier beissen nicht gern ins Gras";
 $quote4 = "Bankraub ist eine Unternehmung von Dilettanten. Wahre Profis gründen eine Bank.";
 $quote5 = "Auch der dumme hat manchmal einen gescheiten Gedanken. Er merkt es nur nicht.";
 
-$img1 = "<img src='../assets/images/team/IMG_2199.png' alt='TEAMBILD'>";
-$img2 = "<img src='../assets/images/team/lego (1).png' alt='TEAMBILD'>";
-$img3 = "<img src='../assets/images/team/lego (2).png' alt='TEAMBILD'>";
-$img4 = "<img src='../assets/images/team/lego.png' alt='TEAMBILD'>";
-$img5 = "<img src='../assets/images/team/woman.png' alt='TEAMBILD'>";
+$img1 = "<img src='../assets/images/team/img1.png' alt='TEAMBILD'>";
+$img2 = "<img src='../assets/images/team/img2.png' alt='TEAMBILD'>";
+$img3 = "<img src='../assets/images/team/img3.png' alt='TEAMBILD'>";
+$img4 = "<img src='../assets/images/team/img4.png' alt='TEAMBILD'>";
+$img5 = "<img src='../assets/images/team/img5.png' alt='TEAMBILD'>";
 ?>
 
 <body>
