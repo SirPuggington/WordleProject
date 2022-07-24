@@ -5,6 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/menu.css">
+
     <link rel="shortcut icon" type="image/x-icon" href="../favicon2.ico">
     <title>Team</title>
 </head>
@@ -103,7 +105,7 @@ $img5 = "<img src='../assets/images/team/img5.png' alt='TEAMBILD'>";
 
         <section>
             <h2>Team Wettbewerb</h2>
-            <form action="POST">
+            <form action="winner.php" method="POST">
                 <h3>Wer hat das beste Bild?</h3>
                 <table>
                     <tr>
@@ -140,7 +142,7 @@ $img5 = "<img src='../assets/images/team/img5.png' alt='TEAMBILD'>";
                     </tr>
                     <tr>
                         <td>
-                            <input id="img5" type="radio" name="fav_img" value="img5">
+                            <input id="img5" type="radio" name="fav_img" value="img5" required>
                         </td>
                         <td>
                             <label for="img5"><?php echo $img5 ?></label>
@@ -149,19 +151,19 @@ $img5 = "<img src='../assets/images/team/img5.png' alt='TEAMBILD'>";
                 </table>
 
                 <h3>Wer hat das beste Zitat?</h3>
-                <input id="quote1" type="radio" name="fav_quote" value="quote1">
-                <label for="quote1"><?php echo $quote1 ?></label>
-                <input id="quote2" type="radio" name="fav_quote" value="quote2">
-                <label for="quote2"><?php echo $quote2 ?></label>
-                <input id="quote3" type="radio" name="fav_quote" value="quote3">
-                <label for="quote3"><?php echo $quote3 ?></label>
-                <input id="quote4" type="radio" name="fav_quote" value="quote4">
-                <label for="quote4"><?php echo $quote4 ?></label>
-                <input id="quote5" type="radio" name="fav_quote" value="quote5">
-                <label for="quote5"><?php echo $quote5 ?></label>
+                <input id="quote1" type="radio" name="fav_quote" value="<?php echo $quote1 ?> required">
+                <label for="quote1"><?php echo $quote1 ?></label><br>
+                <input id="quote2" type="radio" name="fav_quote" value="<?php echo $quote2 ?>">
+                <label for="quote2"><?php echo $quote2 ?></label><br>
+                <input id="quote3" type="radio" name="fav_quote" value="<?php echo $quote3 ?>">
+                <label for="quote3"><?php echo $quote3 ?></label><br>
+                <input id="quote4" type="radio" name="fav_quote" value="<?php echo $quote4 ?>">
+                <label for="quote4"><?php echo $quote4 ?></label><br>
+                <input id="quote5" type="radio" name="fav_quote" value="<?php echo $quote5 ?>">
+                <label for="quote5"><?php echo $quote5 ?></label><br><br>
 
-                <input type="button" value="submit">
-
+                <button type="submit">Senden</button>
+            </form>
         </section>
 
     </main>
