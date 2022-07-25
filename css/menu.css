@@ -93,9 +93,7 @@ header {
         cursor: pointer;
 
         opacity: 0;
-        /* hide this */
         z-index: 2;
-        /* and place it over the hamburger */
 
         -webkit-touch-callout: none;
     }
@@ -127,27 +125,18 @@ header {
         transform-origin: 0% 100%;
     }
 
-    /* 
-   * Transform all the slices of hamburger
-   * into a crossmark.
-   */
+
     #nav-burger input:checked~span {
         opacity: 1;
         transform: rotate(45deg) translate(0, -1px);
         background: #ccb545;
     }
 
-    /*
-   * But let's hide the middle one.
-   */
     #nav-burger input:checked~span:nth-child(3) {
         opacity: 0;
         transform: rotate(0deg) scale(0.2, 0.2);
     }
 
-    /*
-   * Ohyeah and the last one should go the other direction
-   */
     #nav-burger input:checked~span:nth-child(4) {
         transform: rotate(-45deg) translate(0, -1px);
     }
@@ -157,10 +146,7 @@ header {
         border-right: none;
     }
 
-    /*
-   * Make this absolute positioned
-   * at the top left of the screen
-   */
+
     .nav-items {
         position: absolute;
         width: 214px;
@@ -189,9 +175,6 @@ header {
         color: white;
     }
 
-    /*
-   * And let's slide it in from the left
-   */
     .nav-items.active {
         transform: none;
     }
