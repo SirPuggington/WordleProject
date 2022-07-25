@@ -30,4 +30,4 @@ Hinweise:
 * Quelle: https://www.freecodecamp.org/news/build-a-wordle-clone-in-javascript/
 
 * Der Offline-Validator meldet "empty spans", das ist Absicht, da diese das Burgermenu bilden. Der Online-Validator akzeptiert das.
- 
+* Die Webseite ändert das favicon je nach dem ob es sich um eine Art von Infoseite handelr oder nicht. Das ist Absicht.
