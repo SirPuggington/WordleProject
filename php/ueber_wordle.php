@@ -21,7 +21,14 @@
     <main class="content-wrapper">
 
         <article>
-            <h1>Wordle</h1>
+            <h1>Über Wordle</h1>
+            <figure>
+                <video src="../assets/video/wordle.mp4" controls></video>
+                <figcaption>
+                    Quelle: <a href="https://youtu.be/WnWPXZ6vQB8" target="_blank">Youtube: TODAY</a>
+                </figcaption>
+            </figure>
+            <hr>
             <section>
                 <h2>Was ist Wordle?</h2>
                 <p>
@@ -72,12 +79,7 @@
             <hr>
             <br>
             <br>
-            <figure>
-                <video src="../assets/video/wordle.mp4" controls></video>
-                <figcaption>
-                    Quelle: <a href="https://youtu.be/WnWPXZ6vQB8" target="_blank">Youtube: TODAY</a>
-                </figcaption>
-            </figure>
+
 
             <h2>
                 Lust auf noch mehr Wordle?
