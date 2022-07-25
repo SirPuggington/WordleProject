@@ -26,7 +26,7 @@ XAMPP-Version:
 Hinweise:
 * GitHub: https://github.com/SirPuggington/WordleProject.git
 
-* Der JS-Code für das Wordle-Spiel ist größtenteils Fremdcode mit leichten Designanpassungen und sollte nicht unbedingt in die Bewertung eingehen.
+* Der JS-Code für das Wordle-Spiel ist größtenteils Fremdcode mit leichten Design-/ Funktionsanpassungen und sollte nicht unbedingt in die Bewertung eingehen.
 * Quelle: https://www.freecodecamp.org/news/build-a-wordle-clone-in-javascript/
 
 * Der Offline-Validator meldet "empty spans", das ist Absicht, da diese das Burgermenu bilden. Der Online-Validator akzeptiert das.
