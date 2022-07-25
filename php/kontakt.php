@@ -22,7 +22,7 @@
             <?php if (!isset($_POST["submitted"])) { ?>
 
 
-                <form action="<?php "php/kontakt.php" ?>" method="post" id="contact-form">
+                <form action="kontakt.php" method="post" id="contact-form">
 
                     <label for="kontakt_name">Name</label>
                     <input name="kontakt_name" id="kontakt_name" type="text" placeholder="Vor- und Nachname" required>
@@ -47,11 +47,14 @@
                 </form>
 
             <?php } else { ?>
-                <img src="../assets/images/Danke.png">
-                <h3>Vielen Dank für ihre Nachricht <?php echo $_POST["kontakt_name"]; ?>!</h3>
-                <p>Wir setzen uns schnellstmöglich mit Ihnen in Verbindung.</p>
-                <br>
-                <a type="button" href="../index.php">Zurück zur Startseite</a>
+                <form action="../index.php">
+                    <img src="../assets/images/Danke.png" alt="Danke">
+                    <h3>Vielen Dank für ihre Nachricht <?php echo $_POST["kontakt_name"]; ?>!</h3>
+                    <p>Wir setzen uns schnellstmöglich mit Ihnen in Verbindung.</p>
+                    <br>
+                    <button type="submit">Zurück zur Startseite</button>
+
+                </form>
                 <br><br>
 
 
@@ -60,7 +63,7 @@
         <div>
             <h2>Hier finden sie uns</h2>
             <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10395.27343345292!2d9.141197391764958!3d49.35558641942753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797f5661b08128f%3A0x249e45c0f7f2c88f!2sDHBW%20Mosbach!5e0!3m2!1sde!2sde!4v1658668624651!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10395.27343345292!2d9.141197391764958!3d49.35558641942753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797f5661b08128f%3A0x249e45c0f7f2c88f!2sDHBW%20Mosbach!5e0!3m2!1sde!2sde!4v1658668624651!5m2!1sde!2sde" width="600" height="450" style="border:0;"></iframe>
             </div>
         </div>
 

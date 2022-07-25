@@ -74,11 +74,11 @@
                 </ol>
                 <h3>Was bedeuten die Farben?</h3>
                 <dl>
-                    <td>Grau</td>
+                    <dt>Grau</dt>
                     <dd>der Buchstabe kommt <span class="red">nicht</span> im gesuchten Wort vor</dd>
-                    <td>Gelb</td>
+                    <dt>Gelb</dt>
                     <dd>der Buchstabe kommt im gesuchten Wort vor, aber an einer anderen Stelle</dd>
-                    <td>Grün</td>
+                    <dt>Grün</dt>
                     <dd>der Buchstabe kommt im gesuchten Wort vor und ist an der korrekten Stelle</dd>
                 </dl>
 

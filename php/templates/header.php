@@ -17,7 +17,7 @@
             if (($file) == "index") {
             ?>
 
-                <a href="#"><img class="logo" src="assets/images/logo.png"></a>
+                <a href="#"><img class="logo" src="assets/images/logo.png" alt="Wordlemania Logo"></a>
                 <ul class="nav-items">
                     <li><a href="#" class="active">Startseite </a></li>
                     <li><a href="php/ueber_wordle.php">Über Wordle</a></li>
@@ -28,23 +28,23 @@
             <?php } else { ?>
 
 
-                <a href="../"><img class="logo" src="../assets/images/logo.png"></a>
+                <a href="../"><img class="logo" src="../assets/images/logo.png" alt="Wordlemania Logo"></a>
                 <ul class="nav-items">
                     <li><a href="../">Startseite</a></li>
-                    <li><a href="ueber_wordle.php" class=<?php if ($_SERVER['REQUEST_URI'] == '/wordlemania/php/ueber_wordle.php') {
-                                                                echo "active";
-                                                            } ?>>Über Wordle</a></li>
-                    <li><a href="kontakt.php" class=<?php if ($_SERVER['REQUEST_URI'] == '/wordlemania/php/kontakt.php') {
-                                                        echo "active";
-                                                    } ?>>Kontakt</a></li>
-                    <li><a href="team.php" class=<?php if ($_SERVER['REQUEST_URI'] == '/wordlemania/php/team.php') {
-                                                        echo "active";
-                                                    } ?>>Team</a></li>
-
-                <?php } ?>
-
-
+                    <li><a href="ueber_wordle.php" <?php if ($_SERVER['REQUEST_URI'] == '/wordlemania/php/ueber_wordle.php') {
+                                                        echo "class='active'";
+                                                    } ?>>Über Wordle</a></li>
+                    <li><a href="kontakt.php" <?php if ($_SERVER['REQUEST_URI'] == '/wordlemania/php/kontakt.php') {
+                                                    echo "class='active'";
+                                                } ?>>Kontakt</a></li>
+                    <li><a href="team.php" <?php if ($_SERVER['REQUEST_URI'] == '/wordlemania/php/team.php') {
+                                                echo "class='active'";
+                                            } ?>>Team</a></li>
                 </ul>
+            <?php } ?>
+
+
+
         </div>
 
     </nav>

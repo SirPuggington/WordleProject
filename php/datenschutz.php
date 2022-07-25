@@ -45,9 +45,9 @@
         <p>Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:</p>
         <p>DHBW - INF21B - Gruppe 5<br />
             Lohrtalweg 10<br />
-            74821 Mosbach</p>
+            74821 Mosbach<br>
 
-        E-Mail: humanbeeing@live.de</p>
+            E-Mail: humanbeeing@live.de</p>
         <p>Verantwortliche Stelle ist die nat&uuml;rliche oder juristische Person, die allein oder gemeinsam mit anderen &uuml;ber die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.&nbsp;B. Namen, E-Mail-Adressen o. &Auml;.) entscheidet.</p>
 
         <h3>Speicherdauer</h3>

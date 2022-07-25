@@ -25,6 +25,9 @@ XAMPP-Version:
 
 Hinweise:
 * GitHub: https://github.com/SirPuggington/WordleProject.git
+
 * Der JS-Code für das Wordle-Spiel ist größtenteils Fremdcode mit leichten Designanpassungen und sollte nicht in die Bewertung eingehen.
 * Quelle: https://www.freecodecamp.org/news/build-a-wordle-clone-in-javascript/
-* SVG-Code für das Wikipedia-Logo: https://upload.wikimedia.org/wikipedia/commons/0/07/Wikipedia_logo_%28svg%29.svg
+
+* Der Offline-Validator meldet "empty spans", das ist Absicht, da diese das Burgermenu bilden. Der Online-Validator akzeptiert das.
+ 
