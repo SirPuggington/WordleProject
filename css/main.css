@@ -294,6 +294,19 @@ blockquote::before {
     padding: 10px;
 }
 
+tfoot td {
+    color: white;
+    background-color: #777c7e;
+}
+
+tfoot a {
+    color: #52ad5b
+}
+
+a {
+    text-decoration: none;
+}
+
 #wordle-table tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
