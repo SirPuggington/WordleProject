@@ -27,24 +27,23 @@
                 <p>
 
                     <strong>Wordle</strong>
-                    ist ein Spiel, welches im Oktober 2021 beliebtheit im Internet bekam und
+                    ist ein Spiel, welches im Oktober 2021 an Beliebtheit im Internet gewann und
                     heutzutage tausende verschiedene Versionen, wie <abbr title="Löse zwei Wordles gleichzeitig">Dordle</abbr>,
                     <abbr title="Finde das gesuchte Land">Worldle</abbr>,
                     <abbr title="Finde das gesuchte Pokémon">Squirdle</abbr> und
                     auch <abbr title="Finde den Titel eines geschwärzten Wikipedia-Artikels">Redactle</abbr>, besitzt. Das Spiel <em>Wordle</em> wurde von Josh Wardle
-                    und seiner Frau erfunden und auch von diesen im Internet verbreitet.
-                    Die Idee kam ihn von einem ähnlich Rätselspiel der NY-Times dem <em>Speeling Bee</em>, wessen Prinzip er für sein Browserspiel übernahm.
+                    und seiner Frau erfunden sowie von diesen im Internet verbreitet.
+                    Die Idee kam ihnen von einem ähnlichen Rätselspiel der NY-Times der <em>Speeling Bee</em>, wessen Prinzip er für sein Browserspiel übernahm.
                 </p>
             </section>
             <section>
                 <h2>Von 0 auf 2.000.000 in 2 Monaten </h2>
                 <p>
-                    Zu Anfang des Spiels gab es nach einem Monat "nur" 90 aktive tägliche Spieler/innen.
-                    Jedoch mit dem hinzugefügten feature, dem "teilen" Button, welches erlaubte
-                    seinen Erfolg, das Wort zu erraten, mit Hilfe von Farbigen Quadraten an die
-                    Öffentlichkeit (Social Media) zu verbreiten steigte die Spielerzahl.
-                    Sodass Mitte Januar schon 2 Millionen aktive Spieler/innen das Wordle bezwingen
-                    wollten.
+                    Zu Beginn des Spieles gab es nach einem Monat "nur" 90 aktive tägliche Spieler/-innen.
+                    Jedoch mit Hilfe des hinzugefügten Features des "Teilen" Buttons, welcher erlaubte
+                    ein erfolgreiches Erraten des Wortes an die
+                    Öffentlichkeit (Social Media) zu verbreiten, steigte die Spielerzahl rasant an.
+                    Sodass Mitte Januar bereits 2 Millionen aktive Spieler/-innen ihren eigenen Versuch starten wollten das tägliche Wordle zu erraten.
                 </p>
             </section>
             <section>
@@ -52,7 +51,7 @@
                 <p>
                     Durch den immer weiter steigenden Erfolg Wordles kam es dazu, dass es schon
                     im selben Januar eine Deutsche Version des Spiels gab.
-                    Und so kam es dazu, dass die NY-Times von der auch die Idee zum Wordle stammt
+                    o kam es dazu, dass die NY-Times von der auch die Idee zum Wordle stammt
                     das Spiel für „einen niedrigen siebenstelligen Betrag“ erworben hat.
                 </p>
             </section>
