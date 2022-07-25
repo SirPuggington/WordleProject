@@ -2,7 +2,9 @@
 $file = substr($file, -9, -4); ?>
 
 <div id="help-div">
-    <a href="mailto:humanbeeing@live.de"><img src="<?php if ($file != "index") {
-                                                        echo "../";
-                                                    } ?>assets/images/help.svg" alt="Help Icon"></a>
+    <a href="<?php if ($file == "index") {
+                    echo "php/";
+                } ?>kontakt.php"><img src="<?php if ($file != "index") {
+                                                                                    echo "../";
+                                                                                } ?>assets/images/help.svg" alt="Help Icon"></a>
 </div>

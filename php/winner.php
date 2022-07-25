@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/menu.css">
 
-    <link rel="shortcut icon" type="image/x-icon" href="../favicon2.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 </head>
 
 <body>

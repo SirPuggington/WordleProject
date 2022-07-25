@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/menu.css">
 
     <link rel="script" href="js/main.js">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon2.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 
 </head>
