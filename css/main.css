@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: Roboto;
-    src: url(../assets/fonts/Roboto/Roboto-Regular.ttf);
+    src: url(../assets/fonts/roboto/roboto_regular.ttf);
 }
 
 @font-face {
     font-family: Arvo;
-    src: url(../assets/fonts/Arvo/Arvo-Regular.ttf);
+    src: url(../assets/fonts/arvo/arvo_regular.ttf);
 }
 
 body {
